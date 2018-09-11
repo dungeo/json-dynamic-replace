@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/theme.css" type="text/css"> </head>
+
+<body style="width:350px; font-size: small;width:350px;" >
+  <!-- <nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">TDR</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Templates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Replacement</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+  <div class="py-2">
+      <div class="container">
+          <div class="row d-flex" >
+              <div class="p-2">
+                <div id="sd" style="white-space: pre-wrap; font-size: x-small"></div>
+              </div>
+              <div class="p-2">
+                  <a class="btn btn-primary" style="font-size: x-small" href="#" id="copy-time"><i class="fa fa-copy"></i>
+
+                  </a>
+              </div>
+            </div>
+      </div>
+    </div>
+    <div class="py-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 ">
+            <div class="col-md-12">
+              <div class="row d-flex">
+                <div class="col-md-6">
+                  
+                </div>
+                <div class="col-md-2  offset-md-4">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+              <div class="">
+                    <label for="select-template">Template <label>
+                    <select class="form-control" id="select-template">
+                      <option value="mq-scale" >MQ scale</option>
+                      <option value="mq-equipement-event" >MQ equipement event</option>
+                    </select>
+              </div>    
+          </div>
+        </div>
+        <!-- <div class="row">
+          <div class="col-md-12">
+              <div class="form-group">
+                <textarea class="form-control" style="white-space: pre-wrap;" class="" id="text-to-replace">Text to replace</textarea>
+              </div>          
+            </div>
+        </div> -->
+        <div class="row">
+          <div class="col-md-12"> </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <input type="text" class="form-control my-2" id="input-client-id"  value="VychystavaiePracovisko01" placeholder="Client id">
+            <input type="text" class="form-control my-2" id="input-rfid" placeholder="RFID">
+            <input type="text" class="form-control my-2" id="input-value" value="1" placeholder="Value">
+            <div class=" d-flex">
+              <div class="">
+                <label for="select-event">Event <label>
+                <select class="form-control" id="select-event">
+                  <option>ARRIVED</option>
+                  <option>PUT_ON_PLACE</option>
+                  <option>LEFT</option>
+                  <option>TAKEN_FROM_PLACE</option>
+                </select>
+              </div>
+              <div>
+              <a id="replace-btn" class="btn btn-primary" href="#">Replace</a>
+              
+            </div>
+          </div>
+
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-12">
+              <div class="">
+                  <textarea class="form-control" style="white-space: pre-wrap; font-size: x-small; height: 150px;" id="replaced-text" class="" id="template-name">Replaced text</textarea>
+
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  <script src="js/content.js"></script>
+  <script src="js/jquery-3.2.1.slim.min.js" ></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- <script src="js/clipboard.min.js" ></script> -->
+
+</body>
+
+</html>
